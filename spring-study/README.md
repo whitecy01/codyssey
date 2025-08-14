@@ -134,3 +134,69 @@
 
 
 </br>
+
+## Chapter 5 - API를 작성하는 다양한 방법
+
+
+<p align="center">
+  <img src="./5장/image/5장 API를 작성하는 다양한 방법.png" alt="5장 전체 그림"/>
+</p>
+
+
+<div align="center">
+<table>
+  <tr>
+    <th>주제</th>
+    <th>블로그 링크</th>
+  </tr>
+  <tr>
+    <td>GET API 만들기</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/251" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>POST API 만들기</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/252" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>PUT API 만들기</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/253" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>DELETE API 만들기</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/254" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>REST API 명세 문서화</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/255" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>로깅 라이브러리 - Logback</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/256" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  
+</table>
+</div>
