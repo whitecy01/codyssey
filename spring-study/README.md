@@ -199,4 +199,105 @@
   </tr>
   
 </table>
+
+
+</br>
+
+## Chapter 6 - 데이터베이스 연동
+
+
+<p align="center">
+  <img src="./6장/image/6장 데이터베이스 연동.png" alt="5장 전체 그림"/>
+</p>
+
+
+<div align="center">
+<table>
+  <tr>
+    <th>주제</th>
+    <th>블로그 링크</th>
+  </tr>
+  <tr>
+    <td>마리아 DB 설치</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/258" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>ORM</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/259" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>JPA</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/260" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>하이버네이트</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/261" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>영속성 컨텍스트</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/262" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+  <td>데이터베이스 연동 - 실습</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/263" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>엔티티 설계 - 실습</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/264" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>리포지터리 인터페이스 설계 - 실습</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/265" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>DAO 설계</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/266" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>DAO 연동을 위한 컨트롤러와 서비스 설계</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/267" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  
+  
+</table>
 </div>
