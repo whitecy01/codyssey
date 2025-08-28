@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"Spring","children":[{"content":"SpringDatabase","children":[{"content":"Transaction","children":[{"content":"&#xc815;&#xc758; (ACID)","children":[{"content":"Atomicity(&#xc6d0;&#xc790;&#xc131;)","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Consistency(&#xc77c;&#xad00;&#xc131;)","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Isolation (&#xace0;&#xb9bd;&#xc131;, &#xaca9;&#xb9ac;&#xc131;)","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Durability (&#xc9c0;&#xc18d;&#xc131;, &#xc601;&#xc18d;&#xc131;)","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"12,17"}},{"content":"Spring Transactional","children":[{"content":"&#xd2b8;&#xb79c;&#xc7ad;&#xc158; &#xbc94;&#xc704;","children":[{"content":"class&#xc640; &#xba54;&#xc11c;&#xb4dc;","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"&#xc131;&#xb2a5; &#xc601;&#xd5a5;","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"&#xd2b8;&#xb79c;&#xbc94;&#xc704;&#xb97c; &#xcd5c;&#xc18c;&#xd654;","children":[],"payload":{"tag":"li","lines":"21,22"}}],"payload":{"tag":"li","lines":"18,22"}},{"content":"Propagation","children":[{"content":"required","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"requires_new","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"support","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"not_support","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"mandatory","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"never","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"nested","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"li","lines":"22,30"}},{"content":"Isolation level","children":[{"content":"read_uncommitted","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"read_committed","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"repeatable_read","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"serializable","children":[],"payload":{"tag":"li","lines":"34,35"}}],"payload":{"tag":"li","lines":"30,35"}}],"payload":{"tag":"li","lines":"17,35"}}],"payload":{"tag":"h3","lines":"11,12"}},{"content":"Connection Pooling","children":[{"content":"Connection Pooling&#xc774; &#xc5c6;&#xc744; &#xb54c;&#xc758; DB &#xc5f0;&#xacb0; &#xbc29;&#xbc95;","children":[{"content":"TCP &#xc5f0;&#xacb0;","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"TLS/SSL &#xd578;&#xb4dc;&#xc170;&#xc774;&#xd06c;","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"&#xc778;&#xc99d;","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"&#xc138;&#xc158; &#xcd08;&#xae30;&#xd654;","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"&#xc900;&#xbe44; &#xc644;&#xb8cc;","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"&#xcee4;&#xb125;&#xc158; &#xb2eb;&#xae30;","children":[],"payload":{"tag":"li","lines":"42,43"}}],"payload":{"tag":"li","lines":"36,43"}},{"content":"Connection Pooling &#xac1c;&#xb150; &#xbc0f; &#xb3d9;&#xc791; &#xbc29;&#xc2dd;","children":[{"content":"&#xb3d9;&#xc791; &#xbc29;&#xc2dd;","children":[{"content":"&#xc6dc;&#xc5c5;","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"getConnection","children":[],"payload":{"tag":"li","lines":"46,47"}},{"content":"In-use","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"close()","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"&#xc720;&#xc9c0;/&#xad50;&#xccb4;(Maintain)","children":[],"payload":{"tag":"li","lines":"49,50"}}],"payload":{"tag":"li","lines":"44,50"}}],"payload":{"tag":"li","lines":"43,50"}},{"content":"&#xc2a4;&#xd504;&#xb9c1;/&#xd2b8;&#xb79c;&#xc7ad;&#xc158;&#xacfc;&#xc758; &#xc5f0;&#xacb0;","children":[],"payload":{"tag":"li","lines":"50,51"}},{"content":"initial","children":[{"content":"&#xc11c;&#xbc84; &#xc2dc;&#xc791;/&#xc6b4;&#xc601; &#xc911; &#xbbf8;&#xb9ac; &#xd655;&#xbcf4;&#xd574; &#xb458; &#xc720;&#xd6c4; &#xcee4;&#xb125;&#xc158; &#xac1c;&#xc218;","children":[],"payload":{"tag":"li","lines":"52,53"}}],"payload":{"tag":"li","lines":"51,53"}},{"content":"max","children":[{"content":"&#xb3d9;&#xc2dc;&#xc5d0; &#xbe4c;&#xb9b4; &#xc218; &#xc788;&#xb294; &#xcd5c;&#xb300; &#xcee4;&#xb125;&#xc158;","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"li","lines":"53,55"}},{"content":"idle","children":[{"content":"&#xc720;&#xd734; &#xcee4;&#xb125;&#xc158; &#xac1c;&#xc218;","children":[],"payload":{"tag":"li","lines":"56,57"}}],"payload":{"tag":"li","lines":"55,57"}},{"content":"polling time","children":[{"content":"&#xcee4;&#xb125;&#xc158; &#xb300;&#xae30; &#xd55c;&#xb3c4;","children":[],"payload":{"tag":"li","lines":"58,60"}}],"payload":{"tag":"li","lines":"57,60"}}],"payload":{"tag":"h3","lines":"35,36"}},{"content":"JPA","children":[{"content":"&#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;","children":[{"content":"EntityManager API","children":[{"content":"persist(Object entity)","children":[],"payload":{"tag":"li","lines":"63,64"}},{"content":"find(Class<t> entityClass, Object primaryKey)</t>","children":[],"payload":{"tag":"li","lines":"64,65"}},{"content":"remove(Object entity)","children":[],"payload":{"tag":"li","lines":"65,66"}},{"content":"merge(Object entity)","children":[],"payload":{"tag":"li","lines":"66,67"}},{"content":"flush()","children":[],"payload":{"tag":"li","lines":"67,68"}},{"content":"clear()","children":[],"payload":{"tag":"li","lines":"68,69"}},{"content":"detach(Object entity)","children":[],"payload":{"tag":"li","lines":"69,70"}},{"content":"close()","children":[],"payload":{"tag":"li","lines":"70,71"}},{"content":"createQuery()","children":[],"payload":{"tag":"li","lines":"71,72"}}],"payload":{"tag":"li","lines":"62,72"}},{"content":"&#xb9e4;&#xd551; &#xaddc;&#xce59;(&#xc5b4;&#xb178;&#xd14c;&#xc774;&#xc158;)","children":[{"content":"&#xc5d4;&#xd2f0;&#xd2f0; &#xae30;&#xbcf8; &#xb9e4;&#xd551;","children":[],"payload":{"tag":"li","lines":"73,74"}},{"content":"&#xae30;&#xbcf8; &#xd0a4; &#xb9e4;&#xd551;","children":[],"payload":{"tag":"li","lines":"74,75"}},{"content":"&#xd544;&#xb4dc; &#xb9e4;&#xd551;","children":[],"payload":{"tag":"li","lines":"75,76"}},{"content":"&#xc5f0;&#xad00;&#xad00;&#xacc4; &#xb9e4;&#xd551;","children":[],"payload":{"tag":"li","lines":"76,77"}},{"content":"&#xc0c1;&#xc18d; &#xb9e4;&#xd551;","children":[],"payload":{"tag":"li","lines":"77,78"}},{"content":"Mapped Superclass","children":[],"payload":{"tag":"li","lines":"78,79"}}],"payload":{"tag":"li","lines":"72,79"}},{"content":"&#xcffc;&#xb9ac; &#xbc29;&#xbc95;","children":[{"content":"JPQL (Java Persistence Query Language)","children":[],"payload":{"tag":"li","lines":"80,81"}},{"content":"Criteria API (&#xd0c0;&#xc785; &#xc138;&#xc774;&#xd504;, &#xb3d9;&#xc801; &#xcffc;&#xb9ac;)","children":[],"payload":{"tag":"li","lines":"81,82"}},{"content":"Native SQL","children":[],"payload":{"tag":"li","lines":"82,83"}}],"payload":{"tag":"li","lines":"79,83"}}],"payload":{"tag":"li","lines":"61,83"}},{"content":"&#xad6c;&#xd604;&#xccb4;: Hibernate","children":[{"content":"&#xc601;&#xc18d;&#xc131; &#xcee8;&#xd14d;&#xc2a4;&#xd2b8;","children":[{"content":"New(=Transient &#xbe44;&#xc601;&#xc18d;)","children":[],"payload":{"tag":"li","lines":"85,86"}},{"content":"Managed(= Persistent, &#xc601;&#xc18d;)","children":[],"payload":{"tag":"li","lines":"86,87"}},{"content":"Removed(&#xc0ad;&#xc81c; &#xc608;&#xc57d;)","children":[],"payload":{"tag":"li","lines":"87,88"}},{"content":"Detached(&#xc900;&#xc601;&#xc18d;)","children":[],"payload":{"tag":"li","lines":"88,89"}}],"payload":{"tag":"li","lines":"84,89"}}],"payload":{"tag":"li","lines":"83,89"}},{"content":"n+1 &#xbb38;&#xc81c; &#xd574;&#xacb0;","children":[{"content":"N + 1 &#xbb38;&#xc81c;","children":[],"payload":{"tag":"li","lines":"90,91"}},{"content":"N+1 &#xbb38;&#xc81c; &#xd574;&#xacb0; &#xbc29;&#xbc95;","children":[{"content":"Fetch Join","children":[],"payload":{"tag":"li","lines":"92,93"}},{"content":"EntityGraph (Spring Data JPA&#xc5d0;&#xc11c; &#xc790;&#xc8fc; &#xc500;)","children":[],"payload":{"tag":"li","lines":"93,94"}},{"content":"Batch Fetching (hibernate.default_batch_fetch_size)","children":[],"payload":{"tag":"li","lines":"94,95"}}],"payload":{"tag":"li","lines":"91,95"}}],"payload":{"tag":"li","lines":"89,95"}}],"payload":{"tag":"h3","lines":"60,61"}}],"payload":{"tag":"h2","lines":"4,5"}}],"payload":{"tag":"h1","lines":"2,3"}},{})</script>
+</body>
+</html>
