@@ -297,7 +297,110 @@
       </a>
     </td>
   </tr>
-  
-  
 </table>
+
+
+## 데이터베이스 커넥션
+
+<p align="left">
+  <img src="./멘토님의가르침/image/connectionpool.png" alt="멘토님 그림" width="300"/>
+</p>
+
+
+<div align="center">
+<table>
+  <tr>
+    <th>주제</th>
+    <th>블로그 링크</th>
+  </tr>
+  <tr>
+    <td>ACID</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/270" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>트랜잭션범위(Class, Method)</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/271" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Propagation</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/272" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Isolation Level</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/273" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Connection Pooling</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/274" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+  <td>ㄷEntityManager API</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/275" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>매핑 규칙(어노테이션)</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/276" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>리포지터리 인터페이스 설계 - 실습</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/265" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>쿼리 방법(JPQL/Criteria)</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/277" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>영속성 컨텍스트</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/278" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+    <tr>
+    <td>N + 1 문제 해결</td>
+    <td>
+      <a href="https://wo-dbs.tistory.com/279" target="_blank">
+        <img src="https://img.shields.io/badge/바로가기-blue?style=flat-square&logo=github" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 </div>
