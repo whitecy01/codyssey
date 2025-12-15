@@ -13,8 +13,19 @@
 
 [👉 스프링 부트 공부 정리 바로가기](./spring-study/README.md)
 
-- 책은 이 책으로 진행하였습니다.
-
 <p align="center">
   <img src="./image/image.png" alt="책 이미지" width="300"/>
 </p>
+
+- 책은 이 책으로 진행하였습니다.
+
+## 혼자 공부하는 자바
+
+[👉 혼자 공부하는 자바 정리 바로가기](./book/혼자공부하는자바/README.md)
+
+- 책은 이 책으로 진행하였습니다.
+<p align="center">
+  <img src="./image/혼자공부하는자바.png" alt="책 이미지" width="300"/>
+</p>
+
+# 
