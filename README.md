@@ -29,6 +29,9 @@
 │
 └─ README.md # 전체 학습 레포지토리 소개
 ```
+
+</br>
+
 ## 🌱 혼자 공부하기(`book`)
 > 도서를 기반으로 한 Java 기초부터 객체지향 개념까지의 개인 학습 정리입니다.
 
@@ -43,6 +46,8 @@
   <img src="./book/image/혼자공부하는자바.png" alt="책 이미지" width="150"/>
 </p>
 
+
+</br>
 
 ## 📘 Spring/Backend 스터디(`groupStudy 폴더`)
 
@@ -63,12 +68,16 @@
 - 책은 이 책으로 진행하였습니다.
 
 
+</br>
+
 ## ☕ Java 실습 및 개념 정리 (`java`)
 > Java 언어 학습 과정에서 작성한 실습 코드 모음입니다.
 
 ### 1. collectionFramework(`collectionFramework`)
 - 자바의 컬렉션 프레임워크 실습을 진행해보았습니다.
 
+
+</br>
 
 ## 📑 RFC (`RFC`)
 > RFC 문서를 직접 읽고 해석하며 정리한 기술 문서 학습 공간입니다.
