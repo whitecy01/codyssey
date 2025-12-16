@@ -60,12 +60,13 @@
 
 [👉 스프링 부트 공부 정리 바로가기](./groupStudy/spring-study/README.md)
 
+- 책은 이 책으로 진행하였습니다.
 
 <p align="center">
   <img src="./groupStudy/image/springbootbook.png" alt="책 이미지" width="150"/>
 </p>
 
-- 책은 이 책으로 진행하였습니다.
+
 
 
 </br>
