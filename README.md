@@ -63,8 +63,15 @@
 - 책은 이 책으로 진행하였습니다.
 
 
-## Java 실습 및 개념 정리 (`java`)
+## ☕ Java 실습 및 개념 정리 (`java`)
 > Java 언어 학습 과정에서 작성한 실습 코드 모음입니다.
 
 ### 1. collectionFramework(`collectionFramework`)
 - 자바의 컬렉션 프레임워크 실습을 진행해보았습니다.
+
+
+## 📑 RFC (`RFC`)
+> RFC 문서를 직접 읽고 해석하며 정리한 기술 문서 학습 공간입니다.
+
+### 1. OAuth 2.0(`Oauth`)
+[👉 OAuth 2.0 정리 바로가기](./RFC/OAuth/README.md)
