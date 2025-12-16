@@ -1,5 +1,3 @@
-package JCF_Java;
-
 import java.util.*;
 
 public class Hashmap {
@@ -16,7 +14,7 @@ public class Hashmap {
 		System.out.println(hashmap.containsValue(2));
 		hashmap.put("123", hashmap.getOrDefault("123", 0) + 1);
 		
-//		hashmap.remove("123"); // °ªÀ¸·Î »èÁ¦
+//		hashmap.remove("123"); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for (String temp : hashmap.keySet()) {
 			System.out.print(temp + " " + hashmap.get(temp));
 		}
@@ -25,7 +23,7 @@ public class Hashmap {
 		HashSet<Integer> hashset = new HashSet<>();
 		hashset.add(1);
 		hashset.add(2);
-		hashset.add(2); // ¹«½ÃµÊ
+		hashset.add(2); // ï¿½ï¿½ï¿½Ãµï¿½
 		System.out.println(hashset.contains(1));
 
 	}

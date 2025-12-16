@@ -1,5 +1,3 @@
-package JCF_Java;
-
 import java.util.*;
 
 public class treeSet {

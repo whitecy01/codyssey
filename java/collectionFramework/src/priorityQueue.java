@@ -1,5 +1,3 @@
-package JCF_Java;
-
 import java.util.*;
 
 public class priorityQueue {
@@ -19,7 +17,7 @@ public class priorityQueue {
 		
 		P.poll();
 		System.out.println(P.peek());
-//		P.remove(5); // Æ¯Á¤°ª »èÁ¦
+//		P.remove(5); // Æ¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.println(P.isEmpty());
 		System.out.println(P.size());
 //		P.clear();

@@ -1,6 +1,3 @@
-package JCF_Java;
-
-
 import java.util.*;
 
 public class stack {
@@ -22,8 +19,8 @@ public class stack {
 		for (int i = 0; i < sta.size(); i++) {
 			System.out.print(sta.get(i) + " ");	
 		}	
-		sta.remove(0);   // index »èÁ¦ °¡´É
-		sta.remove((Integer)5); // °ªÀ¸·Î »èÁ¦ °¡´É
+		sta.remove(0);   // index ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		sta.remove((Integer)5); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 
 	}

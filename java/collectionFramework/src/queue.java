@@ -1,5 +1,3 @@
-package JCF_Java;
-
 import java.util.*;
 
 public class queue {
@@ -9,7 +7,7 @@ public class queue {
 		Q.add(2);
 		Q.add(3);
 		Q.add(4); // Q.offer();
-		Q.remove(); // Q.remove({°ª}) -> °ª »èÁ¦, Q.poll();
+		Q.remove(); // Q.remove({ï¿½ï¿½}) -> ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, Q.poll();
 		for (int x : Q) {
 			System.out.println(x);
 		}
