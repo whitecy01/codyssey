@@ -13,6 +13,10 @@
 
 
 ## 학습 내용
+```
+관련 코드는 블로그에 연결되어있습니다.
+```
+
 - [자바란 무엇인가?](https://wo-dbs.tistory.com/286)
 - [시스템 입출력](https://wo-dbs.tistory.com/287)
 - [참조 타입과 참조 변수](https://wo-dbs.tistory.com/288)
