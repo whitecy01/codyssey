@@ -26,8 +26,14 @@
 - [인스턴스 멤버와 정적 멤버](https://wo-dbs.tistory.com/292)
 - [접근 제한자](https://wo-dbs.tistory.com/293)
 
+
 ## 학습 내용 날짜 별 정리
 2025년 12/17(수)
 <p align="center">
   <img src="../image/studying.png" alt="책 이미지" width="600"/>
+</p>
+
+2025년 12/20(토)
+<p align="center">
+  <img src="../image/studying2.png" alt="책 이미지" width="800"/>
 </p>
