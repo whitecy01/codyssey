@@ -10,7 +10,7 @@
 ## 📖 번역 진행 현황
 | 섹션                                                                               | 원문 (RFC 6749)                                                         | 번역본                                                               |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------|
-| **1. Introduction**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1)      | [🔗 번역본]                          |
+| **1. Introduction**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1)      | [🔗 번역본] (./OAuth_ko.md#1-소개)                 |
 | **1.1. Roles**                                                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.1)    | [🔗 번역본]                          |
 | **1.2. Protocol Flow**                                                           | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2)    | [🔗 번역본]                     |
 | **1.3. Authorization Grant**                                                     | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3)    | [🔗 번역본]                         |
