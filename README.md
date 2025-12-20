@@ -26,8 +26,6 @@
 │
 ├─ RFC
 │ └─ 📁 OAuth
-│   ├─ 📁 00-abstract
-│   └─ 📁 01-introduction 
 │
 └─ README.md # 전체 학습 레포지토리 소개
 ```
