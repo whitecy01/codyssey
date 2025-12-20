@@ -10,24 +10,24 @@
 ## 📖 번역 진행 현황
 | 섹션                                                                               | 원문 (RFC 6749)                                                         | 번역본                                                               |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------|
-| **1. Introduction**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1)      |                           |
-| **1.1. Roles**                                                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.1)    |                           |
-| **1.2. Protocol Flow**                                                           | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2)    |                       |
-| **1.3. Authorization Grant**                                                     | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3)    |                          |
-| **1.3.1. Authorization Code**                                                    | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.1)  |                       |
-| **1.3.2. Implicit**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.2)  |                          |
-| **1.3.3. Resource Owner Password Credentials**                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.3)  |             |
-| **1.3.4. Client Credentials**                                                    | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.4)  |                     |
-| **1.4. Access Token**                                                            | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.4)    |                         |
-| **1.5. Refresh Token**                                                           | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.5)    |                          |
-| **1.6. TLS Version**                                                             | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.6)    |                     |
-| **1.7. HTTP Redirections**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.7)    |                     |
-| **1.8. Interoperability**                                                        | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.8)    |                             |
-| **1.9. Notational Conventions**                                                  | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.9)    |                              |
-| **2. Client Registration**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2)      |                            |
-| **2.1. Client Types**                                                            | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.1)    |                           |
-| **2.2. Client Identifier**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.2)    |                          |
-| **2.3. Client Authentication**                                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.3)    |                           |
+| **1. Introduction**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1)      | [🔗 번역본]                          |
+| **1.1. Roles**                                                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.1)    | [🔗 번역본]                          |
+| **1.2. Protocol Flow**                                                           | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2)    | [🔗 번역본]                     |
+| **1.3. Authorization Grant**                                                     | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3)    | [🔗 번역본]                         |
+| **1.3.1. Authorization Code**                                                    | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.1)  | [🔗 번역본]                      |
+| **1.3.2. Implicit**                                                              | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.2)  | [🔗 번역본]                         |
+| **1.3.3. Resource Owner Password Credentials**                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.3)  | [🔗 번역본]            |
+| **1.3.4. Client Credentials**                                                    | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.4)  | [🔗 번역본]                    |
+| **1.4. Access Token**                                                            | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.4)    | [🔗 번역본]                        |
+| **1.5. Refresh Token**                                                           | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.5)    | [🔗 번역본]                         |
+| **1.6. TLS Version**                                                             | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.6)    | [🔗 번역본]                    |
+| **1.7. HTTP Redirections**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.7)    | [🔗 번역본]                    |
+| **1.8. Interoperability**                                                        | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.8)    | [🔗 번역본]                            |
+| **1.9. Notational Conventions**                                                  | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-1.9)    | [🔗 번역본]                             |
+| **2. Client Registration**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2)      | [🔗 번역본]                          |
+| **2.1. Client Types**                                                            | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.1)    | [🔗 번역본]                          |
+| **2.2. Client Identifier**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.2)    | [🔗 번역본]                         |
+| **2.3. Client Authentication**                                                   | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.3)    | [🔗 번역본]                          |
 | **2.3.1. Client Password**                                                       | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.3.1)  | [🔗 번역본]                    |
 | **2.3.2. Other Authentication Methods**                                          | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.3.2)  | [🔗 번역본]            |
 | **2.4. Unregistered Clients**                                                    | [🔗 원문](https://datatracker.ietf.org/doc/html/rfc6749#section-2.4)    | [🔗 번역본]            |
