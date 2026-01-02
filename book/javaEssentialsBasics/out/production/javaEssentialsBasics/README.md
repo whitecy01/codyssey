@@ -22,6 +22,8 @@
   - 배열의 초기화
 - String 클래스
   - String 클래스 개념
+  - StringBuffer 클래스
+  - StringBuilder 클래스
 - 객체지향 프로그래밍
   - 객체지향언어 특징
 - 클래스와 객체
@@ -32,7 +34,10 @@
   - import 문
 - 인터페이스
   - 인터페이스의 장점
-  
+- 예외처리
+  - printStackTrace()와 getMessage()
+  - checked예외와 unchecked 예외
+  - 사용자 정의 예외 만들기
 
 
 ## 🔗 연결된 블로그
