@@ -1823,8 +1823,7 @@ name-char  = "-" / "." / "_" / DIGIT / ALPHA
 ```
 
 ## 부록 B. application/x-www-form-urlencoded 미디어 타입의 사용
-본 명세가 발행될 당시, "application/x-www-form-urlencoded" 미디어 타입은 [W3C.REC-html401-19991224]의 17.13.4절에 정의되어 있었으나, IANA MIME Media Types 레지스트리
-(http://www.iana.org/assignments/media-types￼)에는 등록되어 있지 않았다. 또한, 해당 정의는 미국 ASCII(US-ASCII)가 아닌 문자를 고려하지 않았기 때문에 불완전하다.
+본 명세가 발행될 당시, "application/x-www-form-urlencoded" 미디어 타입은 [W3C.REC-html401-19991224]의 17.13.4절에 정의되어 있었으나, IANA MIME Media Types 레지스트리 (http://www.iana.org/assignments/media-types￼)에는 등록되어 있지 않았다. 또한, 해당 정의는 미국 ASCII(US-ASCII)가 아닌 문자를 고려하지 않았기 때문에 불완전하다.
 
 이 미디어 타입을 사용하여 페이로드(payload)를 생성할 때 이러한 한계를 해결하기 위해, 이름(name)과 값(value)은 먼저 UTF-8 문자 인코딩 방식([RFC3629])을 사용하여 인코딩되어야 하며(MUST), 그 결과로 생성된 옥텟(octet) 시퀀스는 [W3C.REC-html401-19991224]에 정의된 이스케이프 규칙을 사용하여 다시 인코딩되어야 한다.
 
